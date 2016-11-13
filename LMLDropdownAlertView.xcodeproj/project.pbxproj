@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48F051721DD8130F00B44611 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F051711DD8130F00B44611 /* AppDelegate.swift */; };
+		48F051741DD8130F00B44611 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F051731DD8130F00B44611 /* ViewController.swift */; };
+		48F051771DD8130F00B44611 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F051751DD8130F00B44611 /* Main.storyboard */; };
+		48F051791DD8130F00B44611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F051781DD8130F00B44611 /* Assets.xcassets */; };
+		48F0517C1DD8130F00B44611 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F0517A1DD8130F00B44611 /* LaunchScreen.storyboard */; };
+		48F051871DD8131000B44611 /* LMLDropdownAlertViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F051861DD8131000B44611 /* LMLDropdownAlertViewTests.swift */; };
+		48F051921DD8131000B44611 /* LMLDropdownAlertViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F051911DD8131000B44611 /* LMLDropdownAlertViewUITests.swift */; };
+		48F051A11DD8187D00B44611 /* LMLDropdownAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F051A01DD8187D00B44611 /* LMLDropdownAlertView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48F051831DD8131000B44611 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48F051661DD8130E00B44611 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48F0516D1DD8130F00B44611;
+			remoteInfo = LMLDropdownAlertView;
+		};
+		48F0518E1DD8131000B44611 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48F051661DD8130E00B44611 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48F0516D1DD8130F00B44611;
+			remoteInfo = LMLDropdownAlertView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48F0516E1DD8130F00B44611 /* LMLDropdownAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMLDropdownAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F051711DD8130F00B44611 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48F051731DD8130F00B44611 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48F051761DD8130F00B44611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48F051781DD8130F00B44611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48F0517B1DD8130F00B44611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48F0517D1DD8130F00B44611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48F051821DD8131000B44611 /* LMLDropdownAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMLDropdownAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F051861DD8131000B44611 /* LMLDropdownAlertViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMLDropdownAlertViewTests.swift; sourceTree = "<group>"; };
+		48F051881DD8131000B44611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48F0518D1DD8131000B44611 /* LMLDropdownAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMLDropdownAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F051911DD8131000B44611 /* LMLDropdownAlertViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMLDropdownAlertViewUITests.swift; sourceTree = "<group>"; };
+		48F051931DD8131000B44611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48F051A01DD8187D00B44611 /* LMLDropdownAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMLDropdownAlertView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48F0516B1DD8130F00B44611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F0517F1DD8131000B44611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F0518A1DD8131000B44611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48F051651DD8130E00B44611 = {
+			isa = PBXGroup;
+			children = (
+				48F051701DD8130F00B44611 /* LMLDropdownAlertView */,
+				48F051851DD8131000B44611 /* LMLDropdownAlertViewTests */,
+				48F051901DD8131000B44611 /* LMLDropdownAlertViewUITests */,
+				48F0516F1DD8130F00B44611 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48F0516F1DD8130F00B44611 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48F0516E1DD8130F00B44611 /* LMLDropdownAlertView.app */,
+				48F051821DD8131000B44611 /* LMLDropdownAlertViewTests.xctest */,
+				48F0518D1DD8131000B44611 /* LMLDropdownAlertViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48F051701DD8130F00B44611 /* LMLDropdownAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				48F0519F1DD8174200B44611 /* LMLDropdownAlertView */,
+				48F051711DD8130F00B44611 /* AppDelegate.swift */,
+				48F051731DD8130F00B44611 /* ViewController.swift */,
+				48F051751DD8130F00B44611 /* Main.storyboard */,
+				48F051781DD8130F00B44611 /* Assets.xcassets */,
+				48F0517A1DD8130F00B44611 /* LaunchScreen.storyboard */,
+				48F0517D1DD8130F00B44611 /* Info.plist */,
+			);
+			path = LMLDropdownAlertView;
+			sourceTree = "<group>";
+		};
+		48F051851DD8131000B44611 /* LMLDropdownAlertViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				48F051861DD8131000B44611 /* LMLDropdownAlertViewTests.swift */,
+				48F051881DD8131000B44611 /* Info.plist */,
+			);
+			path = LMLDropdownAlertViewTests;
+			sourceTree = "<group>";
+		};
+		48F051901DD8131000B44611 /* LMLDropdownAlertViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48F051911DD8131000B44611 /* LMLDropdownAlertViewUITests.swift */,
+				48F051931DD8131000B44611 /* Info.plist */,
+			);
+			path = LMLDropdownAlertViewUITests;
+			sourceTree = "<group>";
+		};
+		48F0519F1DD8174200B44611 /* LMLDropdownAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				48F051A01DD8187D00B44611 /* LMLDropdownAlertView.swift */,
+			);
+			path = LMLDropdownAlertView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48F0516D1DD8130F00B44611 /* LMLDropdownAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48F051961DD8131000B44611 /* Build configuration list for PBXNativeTarget "LMLDropdownAlertView" */;
+			buildPhases = (
+				48F0516A1DD8130F00B44611 /* Sources */,
+				48F0516B1DD8130F00B44611 /* Frameworks */,
+				48F0516C1DD8130F00B44611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMLDropdownAlertView;
+			productName = LMLDropdownAlertView;
+			productReference = 48F0516E1DD8130F00B44611 /* LMLDropdownAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48F051811DD8131000B44611 /* LMLDropdownAlertViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48F051991DD8131000B44611 /* Build configuration list for PBXNativeTarget "LMLDropdownAlertViewTests" */;
+			buildPhases = (
+				48F0517E1DD8131000B44611 /* Sources */,
+				48F0517F1DD8131000B44611 /* Frameworks */,
+				48F051801DD8131000B44611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48F051841DD8131000B44611 /* PBXTargetDependency */,
+			);
+			name = LMLDropdownAlertViewTests;
+			productName = LMLDropdownAlertViewTests;
+			productReference = 48F051821DD8131000B44611 /* LMLDropdownAlertViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48F0518C1DD8131000B44611 /* LMLDropdownAlertViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48F0519C1DD8131000B44611 /* Build configuration list for PBXNativeTarget "LMLDropdownAlertViewUITests" */;
+			buildPhases = (
+				48F051891DD8131000B44611 /* Sources */,
+				48F0518A1DD8131000B44611 /* Frameworks */,
+				48F0518B1DD8131000B44611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48F0518F1DD8131000B44611 /* PBXTargetDependency */,
+			);
+			name = LMLDropdownAlertViewUITests;
+			productName = LMLDropdownAlertViewUITests;
+			productReference = 48F0518D1DD8131000B44611 /* LMLDropdownAlertViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48F051661DD8130E00B44611 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = youpude;
+				TargetAttributes = {
+					48F0516D1DD8130F00B44611 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3G625MBJ43;
+						ProvisioningStyle = Automatic;
+					};
+					48F051811DD8131000B44611 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3G625MBJ43;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 48F0516D1DD8130F00B44611;
+					};
+					48F0518C1DD8131000B44611 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3G625MBJ43;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 48F0516D1DD8130F00B44611;
+					};
+				};
+			};
+			buildConfigurationList = 48F051691DD8130E00B44611 /* Build configuration list for PBXProject "LMLDropdownAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48F051651DD8130E00B44611;
+			productRefGroup = 48F0516F1DD8130F00B44611 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48F0516D1DD8130F00B44611 /* LMLDropdownAlertView */,
+				48F051811DD8131000B44611 /* LMLDropdownAlertViewTests */,
+				48F0518C1DD8131000B44611 /* LMLDropdownAlertViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48F0516C1DD8130F00B44611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F0517C1DD8130F00B44611 /* LaunchScreen.storyboard in Resources */,
+				48F051791DD8130F00B44611 /* Assets.xcassets in Resources */,
+				48F051771DD8130F00B44611 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F051801DD8131000B44611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F0518B1DD8131000B44611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48F0516A1DD8130F00B44611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F051741DD8130F00B44611 /* ViewController.swift in Sources */,
+				48F051721DD8130F00B44611 /* AppDelegate.swift in Sources */,
+				48F051A11DD8187D00B44611 /* LMLDropdownAlertView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F0517E1DD8131000B44611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F051871DD8131000B44611 /* LMLDropdownAlertViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F051891DD8131000B44611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F051921DD8131000B44611 /* LMLDropdownAlertViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48F051841DD8131000B44611 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48F0516D1DD8130F00B44611 /* LMLDropdownAlertView */;
+			targetProxy = 48F051831DD8131000B44611 /* PBXContainerItemProxy */;
+		};
+		48F0518F1DD8131000B44611 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48F0516D1DD8130F00B44611 /* LMLDropdownAlertView */;
+			targetProxy = 48F0518E1DD8131000B44611 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48F051751DD8130F00B44611 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48F051761DD8130F00B44611 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48F0517A1DD8130F00B44611 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48F0517B1DD8130F00B44611 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48F051941DD8131000B44611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48F051951DD8131000B44611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48F051971DD8131000B44611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3G625MBJ43;
+				INFOPLIST_FILE = LMLDropdownAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLDropdownAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		48F051981DD8131000B44611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3G625MBJ43;
+				INFOPLIST_FILE = LMLDropdownAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLDropdownAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		48F0519A1DD8131000B44611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3G625MBJ43;
+				INFOPLIST_FILE = LMLDropdownAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLDropdownAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMLDropdownAlertView.app/LMLDropdownAlertView";
+			};
+			name = Debug;
+		};
+		48F0519B1DD8131000B44611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3G625MBJ43;
+				INFOPLIST_FILE = LMLDropdownAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLDropdownAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMLDropdownAlertView.app/LMLDropdownAlertView";
+			};
+			name = Release;
+		};
+		48F0519D1DD8131000B44611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3G625MBJ43;
+				INFOPLIST_FILE = LMLDropdownAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLDropdownAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LMLDropdownAlertView;
+			};
+			name = Debug;
+		};
+		48F0519E1DD8131000B44611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3G625MBJ43;
+				INFOPLIST_FILE = LMLDropdownAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLDropdownAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LMLDropdownAlertView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48F051691DD8130E00B44611 /* Build configuration list for PBXProject "LMLDropdownAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F051941DD8131000B44611 /* Debug */,
+				48F051951DD8131000B44611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48F051961DD8131000B44611 /* Build configuration list for PBXNativeTarget "LMLDropdownAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F051971DD8131000B44611 /* Debug */,
+				48F051981DD8131000B44611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48F051991DD8131000B44611 /* Build configuration list for PBXNativeTarget "LMLDropdownAlertViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F0519A1DD8131000B44611 /* Debug */,
+				48F0519B1DD8131000B44611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48F0519C1DD8131000B44611 /* Build configuration list for PBXNativeTarget "LMLDropdownAlertViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F0519D1DD8131000B44611 /* Debug */,
+				48F0519E1DD8131000B44611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48F051661DD8130E00B44611 /* Project object */;
+}
